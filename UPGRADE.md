@@ -2,7 +2,7 @@
 
 ## Upgrade from v1 to v2
 
-In version 2, `azure-oss/storage` was converted into a **metapackage**. 
+In version 2, `azure-oss/storage` was converted into a **metapackage**.
 
 ### Key Changes
 - All Blob Storage related code was moved to its own package: [`azure-oss/storage-blob`](https://github.com/Azure-OSS/azure-storage-blob-php).
