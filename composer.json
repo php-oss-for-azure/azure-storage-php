@@ -1,0 +1,22 @@
+{
+  "name": "azure-oss/storage",
+  "description": "Azure Storage PHP SDK metapackage",
+  "keywords": ["azure", "storage", "php", "sdk"],
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brecht Vermeersch",
+      "email": "brechtvermeersch@outlook.be"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "azure-oss/storage-blob": "^2.0",
+    "azure-oss/storage-file-share": "^0.2",
+    "azure-oss/storage-queue": "^1.0"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
